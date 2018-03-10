@@ -1,0 +1,11 @@
+galaxy_info:
+  author: Stefan Geisbacher
+  description: common admin tools
+  license: MIT
+  min_ansible_version: 1.9
+  platforms:
+  - name: ubuntu
+    versions:
+    - all
+  galaxy_tags:
+    - tools
