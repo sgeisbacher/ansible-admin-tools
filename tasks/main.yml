@@ -1,0 +1,10 @@
+- name: install admin tools
+  package: name={{ item }} state=latest
+  with_items:
+    - htop
+    - tree
+    - jq    # lightweight and flexible command-line JSON processor
+    - nmap
+    - tcpdump
+    - lsof
+
